@@ -1,0 +1,27 @@
+.conteudo {
+    background-color: black;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.conteudo fieldset{
+    padding: 25px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type=submit] {
+    padding: 5px 9px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    cursor: pointer;
+}/*Transição visual utilizada com css para mudar o background do botao*/
+
+input[type=submit]:hover {
+    background-color:rgb(87, 87, 87);
+} /*Transição visual utilizada com css para background do botão mudar de cor 0.3 segundos*/
+
